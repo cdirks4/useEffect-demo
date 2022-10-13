@@ -1,0 +1,13 @@
+@import "../_styles.scss";
+
+.container {
+  @include flex-column;
+
+  height: 450px;
+  max-height: 450px;
+  overflow: scroll;
+
+  code {
+    font-size: 16px;
+  }
+}
